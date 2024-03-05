@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 
 const Teams = ({ item }: { item: TeamData }) => {
   return (
-    <Card className="shadow-md hover:bg-gray-100">
+    <Card className="shadow-sm hover:bg-gray-100 text-sm">
       <CardContent className=" p-2 flex items-center justify-between">
         <div className="flex gap-2">
           <Image src={item.logo} alt={item.name} width={20} height={20} />
