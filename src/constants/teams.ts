@@ -1,6 +1,3 @@
-import { Megaphone, PenTool } from "lucide-react";
-import { ReactElement } from "react";
-
 export interface TeamData {
   id: number;
   name: string;
