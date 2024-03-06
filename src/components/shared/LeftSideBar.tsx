@@ -6,14 +6,13 @@ import CreateTeam from "../CreateTeam";
 import AddFolders from "../AddFolders";
 import FolderDropdown from "../FolderDropdown";
 import { folderData } from "@/constants/files";
-import { Card, CardContent } from "../ui/card";
 import { HelpCircle, UserPlus } from "lucide-react";
 import { Badge } from "../ui/badge";
 import Trial from "../Trial";
 
 const LeftSideBar = () => {
   return (
-    <section className="rounded-md sticky left-0 top-0 flex flex-col justify-between overflow-y-auto custom-scrollbar  shadow-2xl max-sm:hidden lg:w-[280px] p-2">
+    <section className="rounded-md sticky left-0 top-0 flex flex-col justify-between overflow-y-auto custom-scrollbar  shadow-md max-sm:hidden lg:w-[280px] p-2">
       <div>
         <Logo />
         <div>
