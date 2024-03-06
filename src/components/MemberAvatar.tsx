@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const MemberAvatar = ({ imgURL, name }) => {
+const MemberAvatar = ({ imgURL, name }: any) => {
   return (
     <div className="rounded-full overflow-hidden">
       <Image src={imgURL} alt={name} width={15} height={15} />
