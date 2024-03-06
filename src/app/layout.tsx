@@ -20,8 +20,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="h-screen flex p-2">
           <LeftSideBar />
-          <section className="flex flex-1 flex-col">
-            <div className="pl-2 mx-auto w-full">{children}</div>
+          <section className="flex flex-1">
+            <div className="pl-2 w-full">{children}</div>
           </section>
         </div>
       </body>

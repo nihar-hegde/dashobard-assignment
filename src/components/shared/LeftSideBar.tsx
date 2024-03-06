@@ -13,7 +13,7 @@ import Trial from "../Trial";
 
 const LeftSideBar = () => {
   return (
-    <section className=" rounded-md  sticky left-0 top-0 flex flex-col justify-between overflow-y-auto custom-scrollbar  shadow-2xl max-sm:hidden lg:w-[280px] p-2">
+    <section className="rounded-md sticky left-0 top-0 flex flex-col justify-between overflow-y-auto custom-scrollbar  shadow-2xl max-sm:hidden lg:w-[280px] p-2">
       <div>
         <Logo />
         <div>

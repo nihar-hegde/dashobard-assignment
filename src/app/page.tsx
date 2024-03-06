@@ -1,7 +1,9 @@
+import Navbar from "@/components/shared/Navbar";
+
 export default function Home() {
   return (
-    <main className="  bg-black  rounded-md">
-      <h1 className="text-3xl font-bold">Hello World</h1>
+    <main className="rounded-md flex flex-col justify-between p-2 shadow-2xl  h-full">
+      <Navbar />
     </main>
   );
 }
